@@ -121,7 +121,8 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 MEDIA_URL = '/media/'
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressManifestStaticfilesStorage' #comressing zip
+STATICFILES_STORAGE = 'whitenoise.storage.CompressManifestStaticfilesStorage' 
+#comressing zip
 
 try:
     from .local_settings import *
